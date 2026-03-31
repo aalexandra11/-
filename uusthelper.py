@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 
-bot=telebot.TeleBot('8466977919:AAH9aIL-BK6zP45iktikLGwLQ01oSCzTaj4')
+bot=telebot.TeleBot('')
 @bot.message_handler(content_types=['photo'])
 def getphotomess(message):
     bot.reply_to(message,'Классное фото, но зачем🧐')
